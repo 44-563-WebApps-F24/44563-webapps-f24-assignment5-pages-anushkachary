@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Anushka's Dinner Party</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" 
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" 
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" href="desserts.html">Dessert Options</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link active" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="advanced.html">Advanced</a>
+            </li>
+        </ul>
+    </div>
+  </nav>
+  <h1>After dinner hosted by Anushka Uppula</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2">U</div>
+      <div class="col-sm-2">P</div>
+      <div class="col-sm-2">P</div>
+      <div class="col-sm-2">U</div>
+      <div class="col-sm-2">L</div>
+      <div class="col-sm-2">A</div>
+    </div>
+    <div class="row">
+      <div class="col-md">Ube Flan</div>
+      <div class="col-md">Pistachio Baklava</div>
+      <div class="col-md">Pavlova with Berries</div>
+      <div class="col-md">Upside-Down Pineapple Cake</div>
+      <div class="col-md">Lemon Meringue Pie</div>
+      <div class="col-md">Almond Biscotti</div>
+    </div>
+    <h6>Explanation:</h6>
+    <div>As I reduce the size of the browser window, the row with the dessert names breaks first. This is because the dessert names are placed in columns with the class <code>col-md</code>, which are wider than the columns with the class <code>col-sm-2</code> used for the letters. The <code>col-md</code> columns are responsive to a larger breakpoint, while the <code>col-sm-2</code> columns are designed for smaller devices, allowing them to remain on one line longer as the viewport size decreases.</div>
+  </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-md">
+            <img src="ube-flan.jpg" alt="Ube Flan" class="img-fluid" style = "width: 400px; height: 400px;">
+        </div>
+        <div class="col-md">
+            <img src="pistachio-baklava.jpg" alt="Pistachio Baklava" class="img-fluid " style = "width: 400px; height: 400px;">
+        </div>
+        <div class="col-md">
+            <img src="pavlova-with-berries.jpg" alt="Pavlova With Berries" class="img-fluid" style = "width: 400px; height: 400px;">
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md">
+            <img src="ube-flan.jpg" alt="Ube Flan Thumbnail" class="img-thumbnail" style = "width: 100px; height: 100px;">
+        </div>
+        <div class="col-md">
+            <img src="pistachio-baklava.jpg" alt="Pistachio Baklava Thumbnail" class="img-thumbnail" style = "width: 100px; height: 100px;">
+        </div>
+        <div class="col-md">
+            <img src="pavlova-with-berries.jpg" alt="Pavlova With Berries Thumbnail" class="img-thumbnail" style = "width: 100px; height: 100px;">
+        </div>
+    </div>
+</div>
+  <div class="container mt-4">    
+    <caption>Desserts, Cities, and Insects by Letter</caption>
+    <table class="table table-bordered table-striped table-hover table-sm">      
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">Letter</th>
+                <th scope="col">Dessert</th>
+                <th scope="col">City</th>
+                <th scope="col">Insect</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table-primary">
+                <td>U</td>
+                <td>Ube Flan</td>
+                <td>Utica</td>
+                <td>Unicorn Caterpillar Moth</td>
+            </tr>
+            <tr class="table-info">
+                <td>P</td>
+                <td>Pistachio Baklava</td>                
+                <td>Pelham</td>
+                <td>Pollen beetle</td>
+            </tr>
+            <tr class="table-success">
+                <td>P</td>
+                <td>Pavlova with Berries</td>                
+                <td>Paradise</td>
+                <td>Paper wasp</td>
+            </tr>
+            <tr class="table-secondary">
+                <td>U</td>
+                <td>Upside-Down Pineapple Cake</td>
+                <td>Uppsala</td>
+                <td>Umbrella Moth</td>
+            </tr>
+            <tr class="table-warning">
+                <td>L</td>
+                <td>Lemon Meringue Pie</td>                
+                <td>Lodi</td>
+                <td>Louse</td>
+            </tr>
+            <tr class="table-danger">
+                <td>A</td>
+                <td>Almond Biscotti</td>
+                <td>Atlanta</td>
+                <td>Ant</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+  <div class="container mt-4">  
+    <div class="btn-toolbar" role="toolbar" aria-label="Button groups">
+        <div class="btn-group mr-2" role="group" aria-label="First button group">
+            <button type="button" class="btn btn-success">U</button>
+            <button type="button" class="btn btn-success">P</button>
+            <button type="button" class="btn btn-success">P</button>
+        </div>
+        <div class="btn-group mr-2" role="group" aria-label="Second button group">
+            <button type="button" class="btn btn-warning">U</button>
+            <button type="button" class="btn btn-warning">L</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Third button group">
+            <button type="button" class="btn btn-danger">A</button>
+        </div>      
+    </div>
+  </div>
+  <div class="container mt-4">
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+           Choose a Page
+        </button>
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="basic.html">Basic Page</a>
+            <a class="dropdown-item" href="Advanced.html">Advanced Page</a>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-4">
+    <form>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="dessert">Dessert</label>
+            <input type="text" class="form-control" id="dessert" placeholder="Enter your dessert">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="newsletter">
+            <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Submit</button>
+    </form>
+</div>
+  
+  <div class="container mt-2">
+    <div class="row">
+        <!-- First Card -->
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="ube-flan.jpg" class="card-img-top" alt="Ube Flan">
+                <div class="card-body">
+                    <h5 class="card-title">Ube Flan</h5>
+                    <p class="card-text">Ube flan cake is a traditional Filipino chiffon cake or sponge cake made with ube halaya.</p>
+                    <a href="https://en.wikipedia.org/wiki/Ube_cake" class="btn btn-primary" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
+  
+        <!-- Second Card -->
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="pistachio-baklava.jpg" class="card-img-top" alt="Pistachio Baklava">
+                <div class="card-body">
+                    <h5 class="card-title">Pistachio Baklava</h5>
+                    <p class="card-text">It is a  is a layered pastry dessert made of filo pastry, filled with chopped nuts, and sweetened with syrup or honey. It was one of the most popular sweet pastries of Ottoman cuisine.</p>
+                    <a href="https://en.wikipedia.org/wiki/Baklava" class="btn btn-primary" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
+  
+        <!-- Third Card -->
+        <div class="col-sm-4">
+            <div class="card">
+                <img src="pavlova-with-berries.jpg" class="card-img-top" alt="Pavlova With Berries">
+                <div class="card-body">
+                    <h5 class="card-title">Pavlova With Berries</h5>
+                    <p class="card-text">Pavlova is a meringue-based dessert named after the Russian ballet dancer Anna Pavlova. It is a cake with a crispy crust and soft, light inside.</p>
+                    <a href="https://simple.wikipedia.org/wiki/Pavlova_(food)" class="btn btn-primary" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+</body>
+</html>
